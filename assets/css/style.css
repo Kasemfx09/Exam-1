@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: red;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+#menu-bar .navbar .container a img {
+    width: 150px;
+}
+
+#menu-bar {
+    background-color: #f0fff0;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#menu-bar .banner .container .banner-text,
+.banner-img {
+    padding: 120px 0 70px;
+}
+
+.nav-item .nav-link button {
+    font-size: 16px;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background: #21b573;
+    border-radius: 30px;
+    padding: 5px 20px 6px;
+    border: none;
+}
+
+#menu-bar .banner .container .banner-text .banner-learn {
+    color: #fd511a;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#menu-bar .banner .container .banner-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+
+#menu-bar .banner .container .banner-text h1 span {
+    color: #21b573;
+}
+
+#menu-bar .banner .container .banner-text .banner-lorem {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6c6b6b;
+}
+
+#menu-bar .banner .container .banner-text a button {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+    background: #21b573;
+    border-radius: 33px;
+    padding: 12px 36px;
+    border: none;
+}
+
+#menu-bar .banner {
+    position: relative;
+}
+
+#topic {
+    padding: 40px 0;
+}
+
+#topic .container .topic-info img {
+    width: 66px;
+    height: 85px;
+}
+
+#topic .container .topic-info {
+    text-align: center;
+    padding: 50px 0;
+    background: #f8fffb;
+    transition: 0.6s;
+}
+
+#topic .container .topic-info:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 24px 46px -20px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 24px 46px -20px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 24px 46px -20px rgba(0, 0, 0, 0.75);
+}
+
+#topic .container .topic-info h2 {
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0;
+}
+
+#topic .container .topic-info p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/*+++++++++++++++++++++Section Online CSS++++++++++++++++++++ */
+
+#online .container .online-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    padding: 30px 0 30px;
+}
+
+#online .container .online-content {
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+#online .container .online-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    padding: 10px 0 0;
+}
+
+#online .container .online-content p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+#online .container .online-content a button {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background: #21b573;
+    border-radius: 33px;
+    padding: 6px 18px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#online .container .online-content .online-start p {
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+#online .container .online-content .online-start .fa {
+    margin-right: 2px;
+}
+
+
+/*+++++++++++++++++++++Section Testimonial CSS++++++++++++++++++++ */
+
+#testimonial {
+    padding: 90px 0 100px;
+}
+
+#testimonial .container .testimonial-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+#testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-photo img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #bebebe;
+}
+
+#testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+#footer-top {
+    background: #282531;
+    padding: 50px;
+}
+
+#footer-top .container .footer-top-content p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+#footer-top .container .footer-top-info ul li {
+    list-style-type: none;
+}
+
+#footer-top .container .footer-top-info ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+#footer-top .container .footer-top-info ul li:nth-child(1) a {
+    font-weight: bold;
+}
+
+#footer-bottom {
+    background: #282531;
+    padding: 20px 0 10px;
+}
+
+#footer-bottom .container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #cdcdcd;
+}
+
+@media (min-width: 1200px) {}
+
+
+/*large Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #online .container .online-content .online-start p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+/*Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu-bar .navbar .container a img {
+        width: 130px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .nav-item .nav-link button {
+        font-size: 13px;
+        padding: 3px 15px 4px;
+    }
+    #menu-bar .banner .container .banner-text .banner-learn {
+        font-size: 14px;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 14px;
+        line-height: 14px;
+        margin: 10px 0px;
+        padding: 10px 16px;
+    }
+    #menu-bar .banner .container .banner-text,
+    .banner-img {
+        padding: 70px 0 70px;
+    }
+    #topic .container .topic-info {
+        margin-bottom: 30px;
+    }
+    #topic .container .topic-info h2 {
+        font-size: 20px;
+        padding-top: 13px;
+    }
+    #topic .container .topic-info p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #online .container .online-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+        padding: 25px 0 25px;
+    }
+    #online .container .online-content h2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0 0;
+    }
+    #online .container .online-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #online .container .online-content a button {
+        font-size: 12px;
+        padding: 5px 16px;
+        margin-bottom: 30px;
+    }
+    #online .container .online-content .online-start p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #testimonial {
+        padding: 70px 0 90px;
+    }
+    #testimonial .container .testimonial-heading h1 {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-photo img {
+        max-width: 140px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #footer-top {
+        padding: 40px;
+    }
+    #footer-top .container .footer-top-content p br {
+        display: none;
+    }
+    #footer-top .container .footer-top-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #footer-top .container .footer-top-info ul li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #footer-bottom {
+        padding: 15px 0 8px;
+    }
+    #footer-bottom .container p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+/* Small Device*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #menu-bar .navbar .container a img {
+        width: 120px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .nav-item .nav-link button {
+        font-size: 10px;
+        padding: 3px 15px 4px;
+    }
+    .navbar-toggler {
+        font-size: 25px;
+        padding: 0px 8px 9px;
+        background: #21b573;
+    }
+    .navbar-toggler-icon {
+        width: 22px;
+        height: 23px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    #menu-bar .banner .container .banner-text .banner-learn {
+        font-size: 12px;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 10px 0px;
+        padding: 10px 16px;
+    }
+    #menu-bar .banner .container .banner-text,
+    .banner-img {
+        padding: 70px 0 70px;
+    }
+    #topic .container .topic-info {
+        margin-bottom: 30px;
+    }
+    #topic .container .topic-info h2 {
+        font-size: 18px;
+        padding-top: 11px;
+    }
+    #topic .container .topic-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #online .container .online-heading h1 {
+        font-size: 22px;
+        line-height: 40px;
+        padding: 25px 0 25px;
+    }
+    #online .container .online-content {
+        margin-bottom: 25px;
+    }
+    #online .container .online-content h2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0 0;
+    }
+    #online .container .online-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #online .container .online-content a button {
+        font-size: 12px;
+        padding: 5px 16px;
+        margin-bottom: 30px;
+    }
+    #online .container .online-content .online-start p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #testimonial {
+        padding: 50px 0 70px;
+    }
+    #testimonial .container .testimonial-heading h1 {
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-photo img {
+        max-width: 140px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p br {
+        display: none;
+    }
+    #footer-top {
+        padding: 35px;
+    }
+    #footer-top .container .footer-top-content p br {
+        display: none;
+    }
+    #footer-top .container .footer-top-content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #footer-top .container .footer-top-info ul li a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #footer-bottom {
+        padding: 15px 0 8px;
+    }
+    #footer-bottom .container p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+
+/*Extra Small Device*/
+
+@media (max-width: 575px) {
+    #menu-bar .navbar .container a img {
+        width: 100px;
+    }
+    .nav-link {
+        font-size: 9px;
+    }
+    .nav-item .nav-link button {
+        font-size: 9px;
+        padding: 3px 15px 4px;
+    }
+    .navbar-toggler {
+        font-size: 25px;
+        padding: 0px 8px 9px;
+        background: #21b573;
+    }
+    .navbar-toggler-icon {
+        width: 22px;
+        height: 23px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    #menu-bar .banner .container .banner-text .banner-learn {
+        font-size: 8px;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 8px;
+        line-height: 14px;
+        display: none;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 9px;
+        line-height: 12px;
+        margin: 5px 0px;
+        padding: 6px 10px;
+    }
+    #menu-bar .banner .container .banner-text,
+    .banner-img {
+        padding: 30px 0 30px;
+    }
+    #topic .container .topic-info {
+        margin-bottom: 30px;
+    }
+    #topic .container .topic-info h2 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    #topic .container .topic-info p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    #topic {
+        padding: 20px 0;
+    }
+    #online .container .online-heading h1 {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 15px 0 25px;
+    }
+    #online .container .online-content {
+        margin-bottom: 25px;
+    }
+    #online .container .online-content h2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0 0;
+    }
+    #online .container .online-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #online .container .online-content a button {
+        font-size: 12px;
+        padding: 5px 16px;
+        margin-bottom: 30px;
+    }
+    #online .container .online-content .online-start p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #testimonial {
+        padding: 30px 0 45px;
+    }
+    #testimonial .container .testimonial-heading h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-photo img {
+        max-width: 120px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p {
+        font-size: 10px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+    #testimonial .container .testimonial-content .carousel-inner .carousel-item .testimonial-text p br {
+        display: none;
+    }
+    #footer-top {
+        padding: 30px;
+    }
+    #footer-top .container .footer-top-content p br {
+        display: none;
+    }
+    #footer-top .container .footer-top-content p {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    #footer-top .container .footer-top-info ul li a {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #footer-top .container .footer-top-info {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #footer-bottom {
+        padding: 15px 0 8px;
+    }
+    #footer-bottom .container p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
